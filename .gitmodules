@@ -1,3 +1,6 @@
 [submodule "lib/gridstack-angular"]
 	path = lib/gridstack-angular
 	url = git@github.com:kdietrich/gridstack-angular.git
+[submodule "lib/gridstack"]
+	path = lib/gridstack
+	url = git@github.com:troolee/gridstack.js.git
