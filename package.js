@@ -16,11 +16,13 @@ Package.onUse(function(api) {
     api.use([
         'jquery',
         'erasaur:meteor-lodash',
-        'mizzao:jquery-ui',
-        'dsyko:jquery-ui-touch-punch'
+        'mizzao:jquery-ui'
     ], 'client');
 
+    // How to update the git submodules
+    // http://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin
     api.addFiles([
+        'lib/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js',
         'lib/gridstack/dist/gridstack.min.css',
         'lib/gridstack/dist/gridstack-extra.min.css',
         'lib/gridstack/dist/gridstack.min.js',
